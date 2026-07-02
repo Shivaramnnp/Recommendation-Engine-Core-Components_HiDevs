@@ -1,10 +1,40 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
 venv/
 env/
-.DS_Store
-node_modules/
-.idea/
+.venv/
+
+# IDE
 .vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/

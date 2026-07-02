@@ -1,1 +1,6 @@
 # Add your project dependencies here
+# numpy>=1.26.0
+
+# Note: This project mainly uses Python standard libraries (math, heapq, collections). NumPy is optional if you later extend vector operations. If you’re only using standard libraries, you can even leave requirements.txt empty or add a comment:
+
+# This project uses only Python standard library.
